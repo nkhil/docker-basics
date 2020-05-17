@@ -78,7 +78,7 @@ $ docker system prune -a
 # Do not prompt for confirmation
 $ docker system prune -f
 # prune volumes
-$ docker system prine --volume
+$ docker system prune --volume
 
 ```
 
