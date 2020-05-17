@@ -4,9 +4,10 @@
   "description": "a node / express server built from scratch to learn docker better",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+    "start": "node index.js"
   },
-  "author": "Nikhil Vijayan",
+  "author": "Nikhil Vijayan <nkhilv@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1"
