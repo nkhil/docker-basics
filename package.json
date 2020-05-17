@@ -1,0 +1,14 @@
+{
+  "name": "express-server-container-from-scratch",
+  "version": "1.0.0",
+  "description": "a node / express server built from scratch to learn docker better",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Nikhil Vijayan",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
