@@ -63,6 +63,23 @@ $ docker exec -it <container id> /bin/bash
 # Stop a container
 $ docker stop <containerId>
 
+# Remove a stopped container
+$ docker container rm <container-id>
+
+# Remove an image
+$ docker rmi <image-id>
+$ docker rmi -f <image-id>
+# -f force removes it
+
+# Remove unused data
+$ docker system prune
+# Remove all unused images not just dangling ones
+$ docker system prune -a
+# Do not prompt for confirmation
+$ docker system prune -f
+# prune volumes
+$ docker system prine --volume
+
 ```
 
 
