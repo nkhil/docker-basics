@@ -11,7 +11,7 @@ git clone https://github.com/nkhil/docker-basics.git
 cd docker-basics
 npm install
 docker build -t <enter-an-optional-tag-here> .
-docker run -p 8080:8080 -d <your-container-tag-or-container-id>
+docker run -p 8080:8080 -d <your-image-id>
 ```
 
 Visit http://localhost:8080/healthcheck in a browser to test if the container is up and running. 
