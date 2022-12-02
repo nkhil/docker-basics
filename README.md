@@ -41,6 +41,9 @@ $ docker run -p 8080:8080 -d <your-container-tag>
 # - Running your image with -d runs the container in detached 
 # mode leaving the container running in the background.
 
+# Explore the file system of an image
+docker run -it <image-name> sh
+
 # List containers
 $ docker ps
 
